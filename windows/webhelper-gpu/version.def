@@ -1,0 +1,19 @@
+; Wine's version.dll exports, forwarded to kernelbase as Wine's own does (version.c).
+LIBRARY version.dll
+EXPORTS
+GetFileVersionInfoA = kernelbase.GetFileVersionInfoA
+GetFileVersionInfoExA = kernelbase.GetFileVersionInfoExA
+GetFileVersionInfoExW = kernelbase.GetFileVersionInfoExW
+GetFileVersionInfoSizeA = kernelbase.GetFileVersionInfoSizeA
+GetFileVersionInfoSizeExA = kernelbase.GetFileVersionInfoSizeExA
+GetFileVersionInfoSizeExW = kernelbase.GetFileVersionInfoSizeExW
+GetFileVersionInfoSizeW = kernelbase.GetFileVersionInfoSizeW
+GetFileVersionInfoW = kernelbase.GetFileVersionInfoW
+VerFindFileA = kernelbase.VerFindFileA
+VerFindFileW = kernelbase.VerFindFileW
+VerInstallFileA
+VerInstallFileW
+VerLanguageNameA = kernel32.VerLanguageNameA
+VerLanguageNameW = kernel32.VerLanguageNameW
+VerQueryValueA = kernelbase.VerQueryValueA
+VerQueryValueW = kernelbase.VerQueryValueW

@@ -1,0 +1,10 @@
+Recall Raft
+Copyright 2026 Kylar Osborne
+
+This product includes software from Recall (https://github.com/AsherJN/recall),
+Copyright 2026 Joshua Asher Nelson, licensed under the Apache License 2.0.
+The native worker (scripts/raft_setup.m), the app's worker bridge
+(app/Sources/SetupService.swift) and launcher design are adapted from Recall's.
+
+Recall Raft runs on Recall's Wine + DXMT runtime, used unmodified. Its
+components keep their own licenses; see THIRD_PARTY_NOTICES.md.

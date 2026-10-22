@@ -1,0 +1,9 @@
+/build/
+**/__pycache__/
+**/*.pyc
+**/.DS_Store
+**/*.app/
+**/.env
+**/*.p12
+**/*.key
+**/*.pem

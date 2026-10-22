@@ -1,0 +1,6 @@
+* text=auto
+*.py text eol=lf
+*.m text eol=lf
+*.c text eol=lf
+*.def text eol=lf
+*.swift text eol=lf
